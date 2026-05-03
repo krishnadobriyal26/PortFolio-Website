@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+ #element{
+  font-family: "poppins" , sans-serif;
+  margin-top: 140px;
+  font-size: 10vh;
+  text-align: center;
+  font-weight: bold;
+  margin-left: 230px;
+
+}
+.MainHeading #element2h3{
+  margin-left: 180px;
+  font-weight: 400;
+  font-size: 6vh;
+  font-family: "poppins" , sans-serif;
+}
+
+.intropara h3{
+  font-family: "poppins" , sans-serif;
+  text-align: center;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.aboutmesection{
+  font-family: "poppins",sans-serif;
+}
+.aboutmesection h1{
+  font-weight: 600;
+  font-size: 7vh;
+  margin-top: 30px;
+}
+.whoami h2{
+  font-size: 5vh;
+  font-weight: 500;
+}
+.whoami h4{
+  font-weight: 400;
+  margin-left: 4vh;
+}
+.whatidobest h2{
+  font-size: 5vh;
+  font-weight: 500;
+}
+.whatidobest h4{
+  font-weight: 400;
+  margin-left: 4vh;
+}
+.mygoals h2{
+  font-size: 5vh;
+  font-weight: 500;
+}
+.mygoals h4{
+  font-weight: 400;
+  margin-left: 4vh;
+}
+*{
+  padding-bottom: 5px;
+}
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+
+.sidebar{
+  position: absolute;
+  background-color: #4A4A48;
+  height: 100%;
+  font-family: 'Fira Sans' , sans-serif;
+  transition: transform 0.3s ease-in;
+
+  
+}
+
+.sidebar nav{
+  padding: 42px;
+  
+}
+
+.sidebar nav li{
+  font-size: 30px;
+  list-style: none;
+  padding: 33px 0;
+}
+.sidebar nav li a{
+  text-decoration: none;
+  color: white;
+}
+
+.main{
+  background: linear-gradient(135deg, #A4C2A5, #566246);
+  
+  width: 100vw;
+  height: 120vh;
+  margin: 0;
+  padding: 0;
+  background-color: #A4C2A5;
+  
+  
+}
+
+.container{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  
+}
+
+  
+
+.sidebarGo{
+  transform: translate(-443px,0);
+  position: absolute;
+}
+.hamburger{
+  top:10px;
+  left:10px;
+  cursor: pointer;
+  position: absolute;
+
+}
+
+.cross{
+  margin-left: 135px;
+}
+@media (max-width:431px) {
+  #element{
+  font-family: "poppins" , sans-serif;
+  margin-top: 150px;
+  font-size: 6vh;
+  text-align: center;
+  font-weight: bold;
+
+}
+.MainHeading #element2h3{
+  margin-left: 180px;
+  font-weight: 400;
+  font-size: 4vh;
+  font-family: "poppins" , sans-serif;
+}
+
+.intropara h3{
+  font-family: "poppins" , sans-serif;
+  text-align: center;
+  font-weight: 400;
+  margin-top: 10px;
+  font-size: 2vh;
+}
+.aboutmesection{
+  font-family: "poppins",sans-serif;
+}
+.aboutmesection h1{
+  font-weight: 600;
+  font-size: 6vh;
+  margin-top: 30px;
+}
+.whoami h2{
+  font-size: 5vh;
+  font-weight: 500;
+}
+.whoami h4{
+  font-weight: 400;
+  margin-left: 4vh;
+}
+.whatidobest h2{
+  font-size: 5vh;
+  font-weight: 500;
+}
+.whatidobest h4{
+  font-weight: 400;
+  margin-left: 4vh;
+}
+.mygoals h2{
+  font-size: 5vh;
+  font-weight: 500;
+}
+.mygoals h4{
+  font-weight: 400;
+  margin-left: 4vh;
+}
+.main{
+  background-color: #A4C2A5;
+  width: 100vw;
+  height: 200vh;
+  padding-top: 4vh;
+
+  
+}
+}

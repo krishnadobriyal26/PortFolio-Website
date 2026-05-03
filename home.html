@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Krishna Dobriyal - Portfolio Website </title>
+  <link rel="stylesheet" href="styles.css" >
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<body>
+  <div class="container">
+   <div class="sidebar sidebarGo">
+     <nav>
+       <ul>
+         <li ><a href="/home.html"> Home </a></li>
+         <li ><a href="/intro.html" > My Intro </a></li>
+         <li ><a href="/services.html" >Services </a></li>
+       </ul>
+     </nav>
+   </div>
+   <div class="main">
+    <div class="hamburger">
+      <img class="ham" src="ham.png" alt="" width="40px">
+      <img class="cross" src="cross.png" alt="" width="23px">
+    </div>
+    <div class="infoContainer">
+      <div class="devInfo">
+        <div class="hello">Hi, My name is <span>Krishna Dobriyal</span></div>
+        <div class="name">and I am into </div>
+        <div class="about">
+        <span id="element"></span>
+        <script>
+        var typed = new Typed('#element', {
+        strings: ['<i>Web Development </i>', 'Canva Designing' , ' &amp; FrontEnd Development !'],
+        typeSpeed: 50,
+        });
+        </script>
+        </div>
+        <div class="buttons">
+        <a href="/RESUME-KRISHNA-DOC.pdf" target="_blank"> <button class="downbutton">Download Resume</button></a>
+        <a href="/connect.html" target="_blank"><button>Contact Me</button></a>
+      </div>
+      </div>
+      <div class="devpic" ><img  class="devPic" src="dev.png" alt="Krishna Dobriyal" ></div>
+    </div>
+    
+   </div>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
